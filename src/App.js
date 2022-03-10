@@ -1,19 +1,17 @@
 
-import './App.css';
-import HelloWord from './components/HelloWord';
-import SayMyName from './components/SayMyName';
-import Pessoa from './components/Pessoa';
-
+import './App.css'
+import Evento from './components/Evento'
+import Forms from './components/Form'
 
 function App() {
-  let nome='Kyldare';
   return (
-    <div className="App">
-      <h1>Meu primeiro REACT</h1>
-      <p>Óla {nome}</p>
-      <Pessoa nome="Kyldare" idade="47" profissao="Programador" foto="https://via.placeholder.com/150"/>
+    <div>
+      <p>Testando Evento</p>
+      <Evento numero="1" />
+      <Evento numer0="2" />
+      <Forms />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
