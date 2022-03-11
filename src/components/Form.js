@@ -1,10 +1,11 @@
+import React from 'react'
 import { useState } from 'react'
 
 function Form() {
 
     function cadastrarUsuario(e){
         e.preventDefault()
-        console.log("usuario ${name} foi Cadastrado ${password}")
+        console.log("usuario ${name} foi Cadastrado com a senha ${password}")
     }
 
     const [name, setName] = useState()
